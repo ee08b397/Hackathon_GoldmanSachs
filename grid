@@ -1,0 +1,52 @@
+.ftue .ftue-tabs + .content .tab-content {
+	display: block !important;
+	overflow: hidden !important;
+	width: 150px !important;
+	height: 150px !important;
+	float: left !important;
+	margin: 2px !important;
+	padding: 5px !important;
+	border-color: white !important;
+	border: 1px dotted #a1a1a1 !important;
+}
+
+.ftue-tabs {
+	display: none !important;
+	width:0px !important;
+}
+
+.ftue .ftue-tabs + .content {
+	margin-left: 0px !important;
+}
+
+.ftue .ftue-tabs + .content .tab-content {
+	verflow: hidden;
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 2px;
+	padding: 5px;
+	border-color: white;
+	border: 1px dotted #a1a1a1;
+}
+---------
+  .ftue .ftue-tabs + .content .tab-content {
+    display: none; }
+---------
+
+=======================================
+
+  .ftue .ftue-tabs + .content .tab-content {
+    display: none; }
+    
+.ftue .ftue-tabs {
+  float: left;
+  width: 150px;
+  background: #22252d;
+  height: 100%;
+  border-right: 1px #1b1e24 solid; }
+
+.ftue .ftue-tabs + .content {
+  margin-left: 151px;
+  padding: 10px;
+  overflow-y: auto; }
